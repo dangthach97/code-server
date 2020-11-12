@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="rmiAcademy.jar"/>
+	<classpathentry kind="lib" path="E:/DOCUMENTS/N3 - DOCUMENTS/JAVAFX/RMI Distributed/mysql-connector-java-8.0.18.jar"/>
+	<classpathentry kind="output" path="out/production/JTravel"/>
+</classpath>

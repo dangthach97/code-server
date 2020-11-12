@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.academy.jtravel.Controller.ServerController">
+	<top>
+		<Label prefHeight="61.0" prefWidth="65.0" text="Server" textAlignment="JUSTIFY" wrapText="true" BorderPane.alignment="TOP_CENTER">
+			<font>
+				<Font name="Segoe UI Bold" size="20.0" />
+			</font>
+		</Label>
+	</top>
+	<bottom>
+		<Button fx:id="btnAction" mnemonicParsing="false" onAction="#startServer" prefHeight="32.0" prefWidth="41.0" text="Start" BorderPane.alignment="CENTER">
+			<BorderPane.margin>
+				<Insets bottom="20.0" />
+			</BorderPane.margin>
+		</Button>
+	</bottom>
+	<center>
+		<Text fx:id="status" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" BorderPane.alignment="CENTER" />
+	</center>
+</BorderPane>
